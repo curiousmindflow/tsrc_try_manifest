@@ -4,9 +4,15 @@ repos:
 
   - url: git@github.com:curiousmindflow/tsrc_node_0.git
     dest: nodes/node_0
+    branch: main
+    # tag: v1.0
+    # sha1: ad2b68539c78e749a372414165acdf2a1bb68203
 
   - url: git@github.com:curiousmindflow/tsrc_node_1.git
     dest: nodes/node_1
+    branch: main
+    # tag: v1.0
+    # sha1: ad2b68539c78e749a372414165acdf2a1bb68203
 
 groups:
   default:
