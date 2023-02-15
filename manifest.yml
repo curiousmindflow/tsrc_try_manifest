@@ -14,4 +14,4 @@ groups:
   g1:
     repos:
       - nodes/node_0
-      # - nodes/node_1
+      - nodes/node_1
