@@ -5,7 +5,9 @@ repos:
 
 groups:
   default:
-    repos: []
+    repos: [
+      manifest
+    ]
   g1:
     repos:
       - nodes/node_0
