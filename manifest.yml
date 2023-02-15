@@ -1,13 +1,19 @@
 repos:
-  - { url: git@github.com:curiousmindflow/tsrc_try_manifest.git, dest: manifest }
-  - { url: git@github.com:curiousmindflow/tsrc_node_0.git, dest: nodes/node_0 }
-  - { url: git@github.com:curiousmindflow/tsrc_node_1.git, dest: nodes/node_1 }
+  - url: git@github.com:curiousmindflow/tsrc_try_manifest.git
+    dest: manifest
+
+  - url: git@github.com:curiousmindflow/tsrc_node_0.git
+    dest: nodes/node_0
+
+  - url: git@github.com:curiousmindflow/tsrc_node_1.git
+    dest: nodes/node_1
 
 groups:
   default:
-    repos: [
-    ]
+    repos: []
   g1:
     repos:
       - nodes/node_0
+  g2:
+    repos:
       - nodes/node_1
