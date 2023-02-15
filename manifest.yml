@@ -1,3 +1,4 @@
+# https://your-tools.github.io/tsrc/
 repos:
   - url: git@github.com:curiousmindflow/tsrc_try_manifest.git
     dest: manifest
