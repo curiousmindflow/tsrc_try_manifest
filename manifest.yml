@@ -8,5 +8,5 @@ groups:
     repos: []
   g1:
     repos:
-      - node_0
-      - node_1
+      - nodes/node_0
+      - nodes/node_1
