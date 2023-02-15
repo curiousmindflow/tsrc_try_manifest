@@ -6,7 +6,6 @@ repos:
 groups:
   default:
     repos: [
-      manifest
     ]
   g1:
     repos:
